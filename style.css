@@ -1,3 +1,11 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    text-align: center;
+    place-items: center;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #f8fafc;
+}
 .copyright {
     text-align: center;
 }
@@ -7,42 +15,76 @@
     vertical-align: middle;
 }
 
-body {
-    margin: 0;
-    min-height: 100vh;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: linear-gradient(135deg, #0f172a, #1e293b);
-    color: #f8fafc;
+#presentacion {
+    padding: 24px 24px;
+    border-radius: 18px;
+    background-color: cadetblue;
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    background: rgba(15, 23, 42, 0.9);
+    max-width: 450px;
 }
 
 a {
- color: white;
+    color: #f8fafc;
 }
 
-.subtitulo {
-    font-style: italic;
+#proyectos {
+    padding: 24px 24px;
+    border-radius: 18px;
+    background-color: cadetblue;
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    background: rgba(15, 23, 42, 0.9);
+    margin: 20px 0 0 0;
+    max-width: 500px;
 }
 
-img {
-    border-radius: 10px;
+.contacto {
+  text-align: center;
+  padding: 24px 32px;
+  margin-top: 32px;
+  border-top: 1px solid rgba(148, 163, 184, 0.25);
 }
 
-.boton-volver {
-    text-align: center;
-    margin: 30px 0;
+.contacto h2 {
+  margin: 0 0 20px 0;
+  font-size: 24px;
 }
 
-.boton-volver a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0ea5e9;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+.contacto a {
+  display: inline-block;
+  margin: 0 12px 12px 12px;
+}
+
+#final {
+    padding: 24px 24px;
+    border-radius: 18px;
+    background-color: cadetblue;
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    background: rgba(15, 23, 42, 0.9);
+    margin: 20px 0 0 0;
+    width: 625px;
+    max-width: 450px;
+}
+
+.boton {
+    border-radius: 999px;
+    background: #38bdf8;
+    color: #0f172a;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    text-decoration: none;
+    padding: 14px 22px;
+    margin-left: 10px;
 }
 
-.boton-volver a:hover {
-    background-color: #0284c7;
+#foto {
+    width: 220px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit:cover;
+    margin: 50px 0 25px 0;
+}
+
+p {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
