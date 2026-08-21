@@ -1,0 +1,1 @@
+This project constitutes the personal profile section of the portfolio, presenting information about the author, their interests in web development, their learning journey, and their key projects. It also includes links to certifications, personal work, and guided exercises, creating a professional digital profile and a clear overview of their growth as a developer.
